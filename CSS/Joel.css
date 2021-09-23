@@ -1,5 +1,12 @@
 .background{
-    background-image: url(../src/MVU-BFADM-2020-Q4-Skyscraper-Future-of-Video-Games-Trends-Technology-Types-header-v2.jpg);
-    height:fit-content;
-    width:fit-content;
+
+    background-image: url(../Resources/MVU-BFADM-2020-Q4-Skyscraper-Future-of-Video-Games-Trends-Technology-Types-header-v2.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+body, html{
+    height: 100%;
 }
