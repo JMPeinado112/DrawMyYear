@@ -1,0 +1,19 @@
+
+.div,h1,table {
+    max-width: 10000px;
+    margin: 0 auto;
+    font: 30px "Cooper Black", Times, serif;
+    -webkit-text-fill-color: turquoise;
+    -webkit-text-stroke: 1px blue;
+    text-align: center;
+    }
+
+.tds {
+    align-items: center;
+    width: 50%;
+}
+
+.td-fotos{
+    object-fit: fill;
+    width: 50%;
+}
