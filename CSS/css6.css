@@ -5,7 +5,7 @@ body {
     color: aliceblue;
     right: 600px;
     top: 100px;
-    background-image:url('C:/Users/DAW2/Desktop/DrawMyYear/Resources/imagen1.jpg') ;
+    background-image:url('Resources/imagen1.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
