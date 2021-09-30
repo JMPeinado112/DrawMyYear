@@ -1,13 +1,28 @@
-.background{
-
-    background-image: url(../Resources/MVU-BFADM-2020-Q4-Skyscraper-Future-of-Video-Games-Trends-Technology-Types-header-v2.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-
+.background {
+  background-image: url(../Resources/00DDUM2F1UuVX1ciAvfJqM3-9..1623763322.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-body, html{
-    height: 100%;
+body,
+html {
+  height: 100%;
+}
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 10px;
+}
+.align-text{
+    text-align: center;
+}
+.medusa-project{
+    padding-top: 20px;
+}
+.text-font{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
 }
