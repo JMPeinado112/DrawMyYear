@@ -1,6 +1,95 @@
-.h25{
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h2{
     font-size: 100px;
     margin: 0 100px 10px 100px;
     color:white;
-    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: black;
+}
+body{
+    background-image: url("../Resources/wallpapersden.com_cool-4k-pattern_3840x2400.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+article {
+    background-color: rgb(255,255,255,0.8);
+    padding: 25px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 4px; 
+}
+
+p{
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+footer{
+    top: 800px;
+    font-size: 50px;
+    color: aliceblue;
+    color: var(--light-color);
+    text-align: center;
+    right: 40%;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 5px;
+  }
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.div1{
+    margin-left: 200px;
+}
+
+
+.imgpagina1{ 
+    height: 450px;
+    margin-left: 100px; 
+}
+
+.slider{
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 10px;
+    width: 400%;
+    animation: cambio 15s infinite linear;
+    animation-direction: alternate;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 98%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
 }
