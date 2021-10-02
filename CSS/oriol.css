@@ -1,12 +1,6 @@
-
-div,h1,table {
-max-width: 10000px;
-margin: 0 auto;
-font: 30px "Cooper Black", Times, serif;
--webkit-text-fill-color: turquoise;
--webkit-text-stroke: 1px blue;
-text-align: center;
-}
-button{
-    background-color: yellow;
+.h25{
+    font-size: 100px;
+    margin: 0 100px 10px 100px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
 }
