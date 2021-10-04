@@ -40,3 +40,10 @@ p{
   font-size: 1.5em;
   font:bold; 
 }
+div{
+  background-color: rgb(255,255,255,0.5);
+  padding: 25px;
+  margin: 10px 0;
+  border: 1px solid white;
+  border-radius: 4px; 
+}
