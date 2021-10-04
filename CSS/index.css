@@ -29,6 +29,8 @@
       text-align: center;
       -webkit-text-fill-color: white;
       -webkit-text-stroke: 5px white;
+      background-color: black;
+      padding: 10px;
 }
 
 body{
