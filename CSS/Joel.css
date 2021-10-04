@@ -26,3 +26,17 @@ html {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
 }
+footer{
+  top: 800px;
+  font-size: 50px;
+  color: aliceblue;
+  color: var(--light-color);
+  position: fixed;
+  right: 40%;
+  justify-content: space-evenly;
+  list-style: none;
+}
+p{
+  font-size: 1.5em;
+  font:bold; 
+}
