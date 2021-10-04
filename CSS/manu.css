@@ -1,0 +1,110 @@
+ header{
+        margin-bottom: 20px;
+        background-color: #333; 
+    }
+    body{
+        background-image:linear-gradient(to bottom right, cyan, red); 
+    }
+    h1{
+        color: white;
+        text-align: center;
+        border-color: white;
+        border-width: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;    
+    }
+    ul{  
+        list-style-type: none;
+        margin: -10px;
+        padding: 55px;
+        overflow: hidden;
+        border-radius: 0px;
+        overflow: hidden;
+        align-items: center;
+    }
+    li{
+        float:left;   
+        text-align: center;
+        align-items: center;
+    }
+    li a{
+        padding: 85px;
+        font-size: large;
+        text-align: center;
+        margin:auto;
+        color: white;
+        text-decoration: none;
+        align-items: center;
+    }
+    li a:hover{
+        background-color: lightgray;
+        color:#333;
+    }
+    img{
+        padding: 50px;
+        height: 230px;
+        width: 420px;
+        display:block;
+        background-attachment: fixed;
+        float: left;
+        
+    }
+    .slide {
+        width: 100vw;
+        height: 100vh;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        width: 400vw; 
+    }
+    .one {
+        background-image:linear-gradient(to bottom right, cyan, red);
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .two {
+        background-image:linear-gradient(to bottom right, cyan, red);
+        float:left;
+    }
+    .three {
+        background-image:linear-gradient(to bottom right, red, cyan);
+        float:left;
+    }
+    .four {
+        background-image:linear-gradient(to bottom right, cyan, red);
+        float:left;
+    }
+    .five {
+        background-image:linear-gradient(to bottom right, red, cyan);
+        float:left;
+    }
+    .wrapper {
+        transform: rotate(90deg) translateY(-100vh);
+        transform-origin: top left;
+    }
+    .outer-wrapper {
+        width: 100vh;
+        height: 100vw;
+        transform: rotate(-90deg) translateX(-100vh);
+        transform-origin: top left;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: center;
+        font-size: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        display: table-cell;
+    }
+
+    p.txt{
+        float: right;
+        text-align: center;
+        padding:80px;
+        font: Arial;
+    }
+
+    
